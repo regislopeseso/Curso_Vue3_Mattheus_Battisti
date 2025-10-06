@@ -6,25 +6,32 @@
     <p>Utilizo as seguintes tecnologias:</p>
     <ul>
       <!-- v-for example -->
-      <li v-for="(tech, index) in tecnologias" :key="index">
+      <li v-for="(tech, index) in tecnologies" :key="index">
         {{ tech }}
       </li>
     </ul>
 
     <p v-show="mostrar_email">Mande uma mensagem para: {{ email }}</p>
+    <p>Para acessar meu portifólio <a v-bind:href="meu_link" target="blank">basta cliclar aqui</a></p>
+    <Picture />
   </div>
 </template>
 
 <script>
+import Picture from "./Picture.vue"
+
 export default {
   name: "Info",
+  components: {
+    Picture
+  },
   data() {
     return {
       esta_trabalhando: true,
       mostrar_email: false,
-      email: "matheus@email.com",
-      // Array used by v-for
-      tecnologias: ["JavaScript", "PHP", "Python"]
+      email: "matheus@email.com",   
+      tecnologies: ["JavaScript", "PHP", "Python"],
+      meu_link: "https://google.com"
     };
   }
 };
