@@ -11,6 +11,10 @@
       </li>
     </ul>
 
+    <div>
+      <button @click="showEmail">{{textoBotao}}</button>
+    </div>
+
     <p v-show="mostrar_email">Mande uma mensagem para: {{ email }}</p>
     <p>Para acessar meu portifólio <a v-bind:href="meu_link" target="blank">basta cliclar aqui</a></p>
     <Picture />
@@ -31,8 +35,20 @@ export default {
       mostrar_email: false,
       email: "matheus@email.com",   
       tecnologies: ["JavaScript", "PHP", "Python"],
-      meu_link: "https://google.com"
+      meu_link: "https://google.com",
+      textoBotao: "Mostrar e-mail"
     };
+  },
+  methods: {
+    showEmail() {
+      this.mostrar_email= !this.mostrar_email;
+      
+      this.textoBotao = "Ocultar e-mail";
+
+      if(this.mostrar_email === false){
+        this.textoBotao = "Mostrar e-mail"
+      }
+    }
   }
 };
 </script>
