@@ -3,7 +3,7 @@
     <h2>
       Esta é a descrição da pessoa: {{ nome }}
     </h2>
-    <Info />
+    <Info :email="email" :esta_trabalhando=false />
     <Form />
   </div>
 </template>
@@ -13,15 +13,17 @@
   import Form from "./Form.vue"
 
   export default {
-  name: "Pessoa",
-  components: {
-    Info,
-    Form
-  },
-  data() {
-    return{
-      nome: "Matheus"
-    }
-  } 
-}
+    name: "Pessoa",
+    components: {
+      Info,
+      Form
+    },
+    data() {
+      return{
+        nome: "Matheus",
+        email: "regis@email.com"
+      }
+    } 
+  }
+
 </script>
