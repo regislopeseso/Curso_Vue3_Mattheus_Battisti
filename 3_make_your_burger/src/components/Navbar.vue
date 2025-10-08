@@ -19,13 +19,13 @@
 
 <style scoped>
   #nav {
-    background-color: #222;
-    border-bottom: 4px solid #111;
+    background-color: var(--graphite-color);
+    border-bottom: 4px solid var(--fire-brick);
     padding: 15px 50px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 100px;
+    height: var(--header-height);
   }
 
   #nav #logo-url{
@@ -39,13 +39,13 @@
   }
 
   #nav a{
-    color: #FCBA03;
+    color: var(--mustard-color);
     text-decoration: none;
     margin: 12px;
     transition: .5s;
   }
 
   #nav a:hover {
-    color: #fff;
+    color: var(--white-color);
   }
 </style>

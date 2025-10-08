@@ -12,10 +12,10 @@
 
 <style scoped>
   #footer {
-    height: 100px;
-    background-color:transparent;
-    border-top: 4px solid #111;
-    color: #FCBA03;
+    height: var(--footer-height);
+    background-color: var(--graphite-color);
+    border-top: 4px solid var(--fire-brick);
+    color: var(--mustard-color);
     display: flex;
     align-items: center;
     justify-content: center;

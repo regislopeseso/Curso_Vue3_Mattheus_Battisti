@@ -28,6 +28,12 @@
     padding: 0;
     margin: 0;
     box-sizing:  border-box;
+    --header-height: 100px;
+    --footer-height: 100px;
+    --white-color: #fff;
+    --graphite-color: #222;
+    --mustard-color:  #FCBA03;
+    --fire-brick: #111;
   }
   body {   
     height: 100%;  
@@ -35,7 +41,7 @@
   }
 
   .main-container {   
-    min-height: calc(100vh - 100px - 100px);
+    min-height: calc(100vh - var(--header-height) - var(--footer-height));
     padding: 50px;
   }
 
@@ -43,7 +49,7 @@
     text-align: center;
     font-size: 42px;
     margin-bottom: 30px;
-    color: #222;
+    color: var(--graphite-color);
   }
 
 
