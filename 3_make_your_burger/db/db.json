@@ -88,7 +88,7 @@
         "Tomate",
         "Cheddar"
       ],
-      "status": "Solicitado"
+      "status": "Finalizado"
     },
     {
       "id": "31ad",
@@ -99,21 +99,6 @@
         "Salame",
         "Bacon",
         "Cheddar"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "0ec7",
-      "nome": "Mateus",
-      "carne": "Picanha",
-      "pao": "Integral",
-      "opcionais": [
-        "Bacon",
-        "Cebola roxa",
-        "Pepino",
-        "Tomate",
-        "Cheddar",
-        "Salame"
       ],
       "status": "Solicitado"
     }
