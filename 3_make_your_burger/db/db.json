@@ -103,12 +103,17 @@
       "status": "Solicitado"
     },
     {
-      "id": "1d9a",
-      "nome": "Regis",
-      "carne": "Alcatra",
-      "pao": "Parmesão e Orégano",
+      "id": "0ec7",
+      "nome": "Mateus",
+      "carne": "Picanha",
+      "pao": "Integral",
       "opcionais": [
-        "Bacon"
+        "Bacon",
+        "Cebola roxa",
+        "Pepino",
+        "Tomate",
+        "Cheddar",
+        "Salame"
       ],
       "status": "Solicitado"
     }
