@@ -31,6 +31,7 @@
     --header-height: 100px;
     --footer-height: 100px;
     --white-color: #fff;
+    --ice-color: #CCC;
     --graphite-color: #222;
     --mustard-color:  #FCBA03;
     --fire-brick: #111;
