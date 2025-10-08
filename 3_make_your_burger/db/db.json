@@ -88,19 +88,18 @@
         "Tomate",
         "Cheddar"
       ],
-      "status": "Finalizado"
+      "status": "Em produção"
     },
     {
-      "id": "31ad",
-      "nome": "regis",
-      "carne": "Maminha",
-      "pao": "Italiano Branco",
+      "id": "fb34",
+      "nome": "Raquel",
+      "carne": "Picanha",
+      "pao": "Parmesão e Orégano",
       "opcionais": [
-        "Salame",
-        "Bacon",
-        "Cheddar"
+        "Tomate",
+        "Cebola roxa"
       ],
-      "status": "Solicitado"
+      "status": "Em produção"
     }
   ]
 }
